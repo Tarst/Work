@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 8vh;
+  background-color: #D9DBDA;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.block_top {
+  background-color: #1374D5;
+  width: 100%;
+  height: 50vh;
+}
+
+.block_icons {
+  padding-top: 9vh;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons p {
+  color: #448EC2;
+  margin-top: 2vh;
+  font-size: 18px;
+}
+
+.user_icon {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 50%;
+  background-color: #737272;
+}
+
+.online {
+  width: 3vw;
+  height: 2vh;
+  border-radius: 50%;
+  background-color: #F5A008;
+  position: relative;
+  top: 6vh;
+  right: 5vw;
+}
+
+.block_text {
+  color: #fff;
+  padding-left: 15vw;
+  margin-top: 4vh;
+}
+
+.block_text h3 {
+  font-size: 29px;
+  margin-bottom: 2vh;
+}
+
+.block_text p {
+  font-size: 20px;
+  margin-bottom: 2vh;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 70%;
+  background-color: #F3F3F3;
+  padding-left: 16vw;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #EF652F 20%, #E7A523 20%, #E7A523 50%, #2395ED 50%);
+  height: 13px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #fff;
+  border: 2px solid gray;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -4px;
+}
+
+.block1_button {
+  width: 28vw;
+  height: 4vh;
+  border-radius: 15px;
+  background-color: #E15D58;
+  text-align: center;
+  font-size: 14px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.block_bottom {
+  width: 100%;
+  height: 60vh;
+  background-color: #F3F3F3;
+}
+
+.block1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 3vh;
+  padding-left: 9vw;
+  padding-bottom: 3vh;
+}
+
+.text {
+  color: gray;
+  font-size: 10px;
+  padding: 0 10px 0 10px;
+}
+
+.text h6 {
+  color: #B3D8F4;
+  font-size: 20px;
+}
+
+.block2_button {
+  background-color: #D08C4B;
+  margin-left: 8vw;
+}
+
+.block3_button {
+  background-color: #46C949;
+  margin-left: 2vw;
+}
